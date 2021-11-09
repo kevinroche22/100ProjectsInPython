@@ -7,9 +7,29 @@
 
 ## Import packages
 from random_word import RandomWords
+
 r = RandomWords()
 
 ## Generate band name
-print(input("What is your name? ") + ", your band name is " + r.get_random_word(hasDictionaryDef = "true", includePartOfSpeech="verb", minLength = 5, maxLength = 10, minCorpusCount = 5, minDictionaryCount = 5) + " " + r.get_random_word(hasDictionaryDef = "true", includePartOfSpeech="noun", minLength = 5, maxLength = 10, minCorpusCount = 5, minDictionaryCount = 5))
-
+print(
+    input("What is your name? ")
+    + ", your band name is "
+    + r.get_random_word(
+        hasDictionaryDef="true",
+        includePartOfSpeech="verb",
+        minLength=5,
+        maxLength=10,
+        minCorpusCount=5,
+        minDictionaryCount=5,
+    )
+    + " "
+    + r.get_random_word(
+        hasDictionaryDef="true",
+        includePartOfSpeech="noun",
+        minLength=5,
+        maxLength=10,
+        minCorpusCount=5,
+        minDictionaryCount=5,
+    )
+)
 
