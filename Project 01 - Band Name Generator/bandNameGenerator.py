@@ -12,9 +12,9 @@ r = RandomWords()
 
 ## Generate band name
 print(
-    input("What is your name? ")
+    input("What is your name? ")  ## user input is evaluated first
     + ", your band name is "
-    + r.get_random_word(
+    + r.get_random_word(  ## random verb
         hasDictionaryDef="true",
         includePartOfSpeech="verb",
         minLength=5,
@@ -23,7 +23,7 @@ print(
         minDictionaryCount=5,
     )
     + " "
-    + r.get_random_word(
+    + r.get_random_word(  ## random noun
         hasDictionaryDef="true",
         includePartOfSpeech="noun",
         minLength=5,
