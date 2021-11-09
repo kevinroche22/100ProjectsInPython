@@ -12,7 +12,7 @@ billBeforeTip = input("What amount did the bill come to? $")
 tipPercentage = input("What percentage tip would you like to give? ")
 
 ## Determine the cost of the bill after tip
-billAfterTip = round(
+billAfterTip = "{:.2f}".format(
     float(billBeforeTip) * (1 + (float(tipPercentage) / 100)), 2
 )
 
@@ -20,11 +20,12 @@ billAfterTip = round(
 numberOfPeopleSplitting = input("How many people are splitting the bill? ")
 
 ## Determine final cost per person
-costPerPerson = round(float(billAfterTip) / int(numberOfPeopleSplitting), 2)
+costPerPerson = "{:.2f}".format(
+    float(billAfterTip) / int(numberOfPeopleSplitting), 2
+)
 
 ## Return calculations
 print(
-    f"After tip, the total bill comes to ${billAfterTip}. \
-    Split {numberOfPeopleSplitting} ways, that comes out to ${costPerPerson}."
+    f"After tip, the total bill comes to ${billAfterTip}. \nSplit {numberOfPeopleSplitting} ways, that comes out to ${costPerPerson} per person."
 )
 
