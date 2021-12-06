@@ -1,6 +1,6 @@
-##############################
-# Password Generator Project #
-##############################
+######################
+# Password Generator #
+######################
 
 ## Import packages
 import secrets as sc
