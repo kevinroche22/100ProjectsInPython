@@ -8,3 +8,4 @@ Repository for Udemy's 100 days of Python [course.](https://www.udemy.com/course
 - [Project 5: Secure Password Generator](https://github.com/kevinroche22/100ProjectsInPython/blob/main/Project%2005%20-%20Password%20Generator/Project%2005%20-%20Password%20Generator.py)
 - [Project 7: Hangman](https://github.com/kevinroche22/100ProjectsInPython/tree/main/Project%2007%20-%20Hangman)
 - [Project 8: Caesar Cipher](https://github.com/kevinroche22/100ProjectsInPython/tree/main/Project%2008%20-%20Caesar%20Cipher)
+- [Project 9: Sealed Bid Auction](https://github.com/kevinroche22/100ProjectsInPython/tree/main/Project%2009%20-%20Sealed%20Bid%20Auction)
