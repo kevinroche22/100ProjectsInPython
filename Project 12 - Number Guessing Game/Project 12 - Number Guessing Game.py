@@ -37,6 +37,8 @@ if gameMode == "hard":
 ## Define guess function
 def guess(currentGuess):
 
+    """Takes current guess as an input. If incorrect, it lets user know if it's too high or too low and subtracts one from the number of guesses."""
+
     global numberOfGuesses
 
     global victory
