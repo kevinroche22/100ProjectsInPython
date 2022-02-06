@@ -10,3 +10,4 @@ Repository for Udemy's 100 days of Python [course.](https://www.udemy.com/course
 - [Project 8: Caesar Cipher](https://github.com/kevinroche22/100ProjectsInPython/tree/main/Project%2008%20-%20Caesar%20Cipher)
 - [Project 9: Sealed Bid Auction](https://github.com/kevinroche22/100ProjectsInPython/tree/main/Project%2009%20-%20Sealed%20Bid%20Auction)
 - [Project 10: Calculator](https://github.com/kevinroche22/100ProjectsInPython/tree/main/Project%2010%20-%20Calculator)
+- [Project 12: Number Guessing Game](https://github.com/kevinroche22/100ProjectsInPython/tree/main/Project%2012%20-%20Number%20Guessing%20Game)
